@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #000000;
+    padding: 18px;
+}
+
+#logo-nav {
+    color: #FFFFFF;
+}
+
+#menu-nav {
+    /* margin-top: 7px; */
+    margin-left: 900px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+#menu-nav ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    gap: 40px;
+}
+
+#menu-nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+main {
+    background-color: #111130;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    /* font-size: 22px; */
+    padding: 50px 100px 50px 100px;
+}
+
+.contact {
+    margin-left: 50px;
+    display: flex;
+    gap: 100px;
+    padding-bottom: 29px;
+}
+
+#form-contact form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: #5E88FB;
+}
+
+input[type=submit]:hover {
+    background-color: #4160b6;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+#platform {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer {
+    background-color: #111130;
+    padding: 20px 0 20px 0;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}

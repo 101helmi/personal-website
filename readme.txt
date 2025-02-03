@@ -1,0 +1,1 @@
+This website pure HTML, CSS, & JavaScript
